@@ -1,0 +1,47 @@
+Le but du projet : créer un système de questionnaire de satisfaction pour des cours.
+
+
+
+Un cours se déroule avec un prof dans une salle à une date donnée (table subjects) et porte un nom.
+
+Exemple : Renaud donne cours dans la salle Blackboard le 30 mars, un cours de Backend.
+
+
+
+Un prof possède un nom et un prénom (table teachers). Ex : John Doe
+
+
+
+Une salle possède un nom (table rooms) : Ex: BlackBoard
+
+
+
+On peut noter un cours selon quatre critères, notés de 1 à 10 (table subject_marks) :
+
+- Intérêt du cours (colonne mark1)
+
+- Pédagogie du prof (colonne mark2)
+
+- Qualité des exercices (colonne mark3)
+
+- Qualité de la salle et du matériel (colonne mark4)
+
+(Evidemment sur BlackBoard la note sur la salle sera un peu plus difficile)
+
+
+
+Tout le monde peut saisir les informations (créer des salles, des profs, noter).
+
+Bonus : seuls des utilisateurs peuvent utiliser l'outil (nécessite une table users pour les logins/mdp).
+
+Bonus 2 : Création de rôle admin/user -> L'admin peut créer les salles et les profs, les users peuvent les noter
+
+
+
+Vous pouvez réaliser ce projet en groupes de 3 personnes max (seul(e) ça marche aussi).
+
+
+
+Utilisez le fichier sql présent ici pour générer votre base de données : we.tl/t-p3oONbNKyO
+
+Utilisez le miniframework vu ce matin pour créer vos routes, vos controllers, vos models, vos views. 
